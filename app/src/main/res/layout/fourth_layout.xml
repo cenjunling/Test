@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <AutoCompleteTextView
+        android:id="@+id/auto_text"
+        android:hint="请输入............"
+        android:minWidth="150dp"
+        android:completionHint="completion hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <MultiAutoCompleteTextView
+        android:id="@+id/multi_auto_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <ZoomControls
+        android:id="@+id/zoom_controls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ViewStub
+        android:id="@+id/view_stub_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout="@layout/first_layout"/>
+    <ViewStub
+        android:id="@+id/view_stub_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout="@layout/second_layout"/>
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
