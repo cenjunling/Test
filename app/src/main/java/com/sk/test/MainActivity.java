@@ -14,7 +14,7 @@ import com.sk.test.server.RunningService;
 
 public class MainActivity extends AppCompatActivity {
 	enum Strategy{
-		WALK,PLANE,SUBWAY
+		WALK,PLANE,SUBWAY,ABC,EBF
 	}
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
